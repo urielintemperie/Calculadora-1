@@ -24,6 +24,16 @@ def division(num1, num2):
 	resultado = num1 / num2
 	return resultado
 
+#el primer numero se potencia segun el segundo
+def potencia(num1, num2):
+	resultado = num1 ** num2
+	return resultado
+
+#devuelve la raiz cuadrada del numero
+def raizCuadrada(num1):
+	resultado = sqrt(num1)
+	return resultado
+
 def Hipotenusa(a, b):	# Esta función sirve para calcular el lado mayor del triangulo.
 	# c^2 = a^2 + b^2
 	return sqrt((a * a) + (b * b))
